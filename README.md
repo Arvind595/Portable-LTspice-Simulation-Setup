@@ -135,5 +135,14 @@ For any empty or missing components in the schematic:
 * Keep the `.asc` file and `Libs` folder together when sharing projects.
 * Avoid hardcoded machine-specific paths in `.asy` files.
 
+## How to Import Compiled .raw to .asc 
+
+* Make sure both the file
+* Keep the `.asc` file and `.raw` files together in same directory.
+* Make sure all the nets are same from .raw and .asc
+* Open .asc , click on "pick visible traces icon" in the top bar, it should automatically find and open .raw
+* If not manually open .raw from - File - open - .raw
+* Right click and add trace - choose - net - corresponding to .asc
+
 ```
 ```
